@@ -1,0 +1,1153 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@600&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 900;
+
+}
+.nav{
+    background: url( images/image-hero-desktop.jpg);
+    height: 25rem;
+    object-fit: contain;
+    color: white;
+}
+.topnav {
+    display: flex;
+    gap: 40rem;
+    padding: 1rem 5rem;
+
+    
+}
+.ex{
+  display: none;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+.topnav .icon {
+    display: none;
+}
+.tcenter{
+  text-align: center;
+}
+.mfirst{
+  height: 12rem;
+  width: 50%;
+background-color: white;
+margin-bottom: 3rem;
+padding:  0 2rem;
+border-radius: 5px;
+}
+.ham {
+  display: none;
+}
+
+.master{
+background-color: white;
+margin-top: -3rem;
+margin-bottom: 1rem;
+height: fit-content;
+width: 50%;
+padding: 3rem ;
+border-radius: 5px;
+
+}
+.mater{
+    margin-top: 1rem;
+}
+.craft{
+    margin-left: 245px;
+    margin-top: -1.5rem;
+}
+.cyan{
+    color: white;
+    background-color: hsl(176, 50%, 47%);
+    border: none;
+    border-radius: 2rem;
+    padding: 10px;
+    margin-top: 10px;
+}
+.book{
+    width: 30px;
+}
+button{
+  cursor: pointer;
+}
+.grey{
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  width: 7rem;
+  height: 2rem;
+  align-items: center;
+  margin: 1rem 0 0 0;
+}
+.gray{
+  display: none;
+}
+.txt{
+  margin-left: 7px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.butt{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 13%, 88%);
+}
+.count{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+h1{
+  font-weight: 900;
+  font-size: xx-large;
+}
+.lead{
+    font-size: 15px;
+    
+}
+ .span{
+    font-size: 2.5rem;
+}
+#myProgress {
+    width: 100%;
+    background-color: grey;
+    border-radius: 2rem;
+    margin-top: 1rem;
+  }
+  
+  #myBar {
+    width: 90%;
+    height: 10px;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 2rem;
+      
+  }
+  .master h4{
+    margin-bottom: 2rem;
+  }
+  .bline{
+    border: 1px solid;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+  .master-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+   .maste-flex{
+    display: flex;
+    gap: 15px;
+   }
+
+  .master-link{
+    color: hsl(176, 50%, 47%) ;
+    text-decoration: none;
+  }
+  .hun{
+    margin-top: 1rem;
+    
+  }
+  .left{
+    margin-right: 230px;
+    margin-top: 20px;
+  }
+  h1{
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .blur{
+    color:  hsl(0, 0%, 48%) ;
+  }
+  .bblur{
+    background-color:  hsl(0, 0%, 48%);
+    opacity: .5;
+  }
+  .mobileStock{
+    display: none;
+  }
+  .opa{
+    opacity: .3;
+  }
+  .blined{
+    width: 30rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+  
+  }
+    .holder{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+    
+   .modal-content img {
+    width: 50%;
+    margin-left: 120px;
+
+   }
+   .modal-content h2{
+     text-align: center;
+     font-weight: 900;
+   }
+    .modal-content{
+      border: none;
+    }
+    .modal-text{
+      text-align: center;
+    }
+    .modal-footer{
+      border: none;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+    /* The Close Button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .check{
+      padding:  1rem 3rem;
+    margin-bottom: 1rem;}
+
+   
+    .selection {
+      scroll-margin-top: 1.5rem;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.25s ease;
+  }
+  input[type="radio"] {
+    display: block;
+}
+form {
+  margin: 2rem 0;
+}
+.select {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.select label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.radioCircle::after {
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: hsl(176, 50%, 47%);
+  transform: scale(0);
+  transition: transform 0.25s ease;
+}
+.select .details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pledge {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.pledge p {
+  margin-top: 2.75rem;
+}
+.amount {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.amount div::before {
+  position: absolute;
+  top: 20px;
+  left: 1.25rem;
+  content: "$";
+  font: 500 1rem/1 'Commissioner', sans-serif;
+  color: hsl(0, 0%, 50%);
+}
+.amount input {
+  font: 500 1rem/1 'Commissioner', sans-serif;
+  color: hsl(0, 0%, 0%);
+  width: 100%;
+  padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+  outline: none;
+  border-radius: 2rem;
+  border: 1px solid hsl(0, 0%, 90%);
+  height: 56px;
+  transition: border-color 0.25s ease;
+}
+.selection.active {
+  border-color: hsl(176, 50%, 47%);
+}
+.selection {
+  scroll-margin-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.25s ease;
+}
+.option {
+  padding: 2rem 1.5rem;
+  
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+.select {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.select label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.radioCircle::after {
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: hsl(176, 50%, 47%);
+  transform: scale(0);
+  transition: transform 0.25s ease;
+}
+.amount::after {
+  display: block;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  content: "Please enter a valid pledge";
+  color: hsl(356, 100%, 66%);
+  font-size: 0.75rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+.select label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.radioCircle {
+  position: relative;
+  display: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 90%);
+  margin-right: 1rem;
+  flex-shrink: 0;
+  transition: border-color 0.25s ease;
+}
+.pledge {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid hsl(0, 0%, 90%);
+  margin-top: 1.75rem;
+  overflow-y: hidden;
+  opacity: 0;
+  transition-property: max-height, opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.selection.active .pledge {
+  opacity: 1;
+}
+
+.pledge p {
+  margin-top: 1.25rem
+}
+
+.amount {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.amount div {
+  width: 50%;
+  flex-grow: 1;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.amount div::before {
+  position: absolute;
+  top: 20px;
+  left: 1.25rem;
+  content: "$";
+  font: 500 1rem/1 'Commissioner', sans-serif;
+  color: hsl(0, 0%, 50%);
+}
+
+.amount input {
+  font: 500 1rem/1 'Commissioner', sans-serif;
+  color: hsl(0, 0%, 0%);
+  width: 100%;
+  padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+  outline: none;
+  border-radius: 2rem;
+  border: 1px solid hsl(0, 0%, 90%);
+  height: 56px;
+  transition: border-color 0.25s ease;
+}
+
+.amount input:focus {
+  border-color: hsl(0, 0%, 0%);
+}
+
+.amount input::placeholder {
+  color: hsl(0, 0%, 50%);
+}
+
+.amount button {
+  flex-grow: 0;
+  margin-bottom: 1rem;
+}
+
+.select .details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.selection .desktopStock {
+  display: flex;
+  margin-top: 0;
+}
+.amount {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.amount div::before {
+  position: absolute;
+  top: 20px;
+  left: 1.25rem;
+  content: "$";
+  font: 500 1rem/1 'Commissioner', sans-serif;
+  color: hsl(0, 0%, 50%);
+}
+.amount::after {
+  display: block;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  content: "Please enter a valid pledge";
+  color: hsl(356, 100%, 66%);
+  font-size: 0.75rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+#confirmation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  z-index: 3;
+}
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+p {
+  line-height: 2;
+}
+
+.nav-modal{
+  display: block;
+  background-color: white;
+  width: 30%;
+}
+.nav-modal ul li a{
+  text-decoration: none;
+  color: black;
+}
+.nav-modal ul li{
+  list-style: none;
+  color: black;
+}
+.mobile-other-links{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 90%;
+  padding: 4rem;
+  padding-left: 20px;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+  display: none;
+}
+.mobile-other-links a{
+  padding-bottom: 2rem;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  
+}
+.times{
+  display: none;
+}
+.hr{
+  color: black;
+  width: 135%;
+  margin: 10px;
+  margin-left: -21px;
+}
+svg{
+  margin-left: 28rem;
+}
+
+
+  @media screen and (max-width: 414px) { 
+.nav{
+  background: url( images/image-hero-mobile.jpg);
+  height: 25rem;
+  object-fit: contain;
+  color: white;
+}
+.other-links{
+  display: none;
+}
+.topnav {
+  display: flex;
+  padding: 1rem ;
+
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.ham{
+  display: block;
+  margin-top: 1rem;
+}
+
+
+.topnav .icon {
+  display: block;
+}
+.tcenter{
+text-align: center;
+}
+.mfirst{
+height: fit-content;
+width: 90%;
+padding-bottom: 2rem;
+}
+
+.master{
+background-color: white;
+margin-top: -3rem;
+margin-bottom: 1rem;
+height: fit-content;
+width: 99%;
+padding: 3rem ;
+border-radius: 5px;
+
+}
+h2{
+  text-align: center;
+}
+.mater{
+  margin-top: 1rem;
+}
+.craft{
+  margin-left: 100px ;
+  
+}
+.cyan{
+  color: white;
+  background-color: hsl(176, 50%, 47%);
+  border: none;
+  border-radius: 2rem;
+  padding: 10px;
+  margin-top: 10px;
+}
+.book{
+  width: 30px;
+}
+button{
+cursor: pointer;
+}
+.grey{
+display: none;
+}
+.gray{
+  border: none;
+  margin-right: -22px;
+  display: block;
+}
+.yanc{
+  width: 90%;
+  margin-left: -29px;
+    padding: 15px;
+}
+.txt{
+margin-left: 7px;
+text-decoration: none;
+color: black;
+}
+
+
+.butt{
+  display: flex;
+  justify-content: space-between;
+}
+.f{
+  display: none;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 13%, 88%);
+}
+.count{
+  display: block;
+
+}
+.count h1 {
+  text-align: center;
+
+}
+.count p{
+  text-align: center;
+}
+h1{
+font-weight: 900;
+font-size: xx-large;
+}
+.lead{
+  font-size: 15px;
+  
+}
+.span{
+  font-size: 2.5rem;
+}
+#myProgress {
+  width: 100%;
+  background-color: grey;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+#myBar {
+  width: 90%;
+  height: 10px;
+  background-color: hsl(176, 50%, 47%);
+  border-radius: 2rem;
+    
+}
+.master h4{
+  margin-bottom: 2rem;
+}
+.bline{
+  border: 1px solid;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+.master-flex{
+  display: block;
+
+}
+ .maste-flex{
+  display: flex;
+  gap: 15px;
+ }
+
+.master-link{
+  color: hsl(176, 50%, 47%) ;
+  text-decoration: none;
+}
+.hun{
+  margin-top: 1rem;
+  
+}
+.left{
+  margin-right: 230px;
+  margin-top: 20px;
+}
+h1{
+  font-weight: 900;
+  font-size: 30px;
+}
+.blur{
+  color:  hsl(0, 0%, 48%) ;
+}
+.bblur{
+  background-color:  hsl(0, 0%, 48%);
+  opacity: .5;
+}
+.mobileStock{
+  display: none;
+}
+.opa{
+  opacity: .3;
+}
+.blined{
+  width: auto;
+
+}
+.logo {
+  gap: 150px;
+  display: flex;
+}
+  .holder{
+    width: 90%;
+    padding: 2rem 0;
+  }
+  
+ .modal-content img {
+  width: 50%;
+  margin-left: 65px;
+
+
+ }
+ .modal-content h2{
+   text-align: center;
+   font-weight: 900;
+ }
+  .modal-content{
+    border: none;
+  }
+  .icon{
+    display: block;
+  }
+  svg{
+    margin-left: 300px;
+  }
+
+  .modal-text{
+    text-align: center;
+  }
+  .modal-footer{
+    border: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .check{
+    padding:  1rem 3rem;
+  margin-bottom: 1rem;}
+
+ 
+  .selection {
+    scroll-margin-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.25s ease;
+}
+input[type="radio"] {
+  display: block;
+}
+form {
+margin: 2rem 0;
+}
+.select {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.select label {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+.radioCircle::after {
+display: block;
+position: absolute;
+top: 3px;
+left: 3px;
+content: "";
+width: 1rem;
+height: 1rem;
+border-radius: 50%;
+background-color: hsl(176, 50%, 47%);
+transform: scale(0);
+transition: transform 0.25s ease;
+}
+.select .details {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+
+.pledge {
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+}
+.pledge p {
+margin-top: 2.75rem;
+}
+.amount {
+position: relative;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin: 1rem 0;
+}
+.amount div::before {
+position: absolute;
+top: 20px;
+left: 1.25rem;
+content: "$";
+font: 500 1rem/1 'Commissioner', sans-serif;
+color: hsl(0, 0%, 50%);
+}
+.amount input {
+font: 500 1rem/1 'Commissioner', sans-serif;
+color: hsl(0, 0%, 0%);
+width: 100%;
+padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+outline: none;
+border-radius: 2rem;
+border: 1px solid hsl(0, 0%, 90%);
+height: 56px;
+transition: border-color 0.25s ease;
+}
+.selection.active {
+border-color: hsl(176, 50%, 47%);
+}
+.selection {
+scroll-margin-top: 1.5rem;
+padding-bottom: 0.5rem;
+transition: border-color 0.25s ease;
+}
+.option {
+padding: 2rem 1.5rem;
+
+border-radius: 0.5rem;
+margin-top: 2rem;
+}
+.select {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.select label {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+
+.radioCircle::after {
+display: block;
+position: absolute;
+top: 3px;
+left: 3px;
+content: "";
+width: 1rem;
+height: 1rem;
+border-radius: 50%;
+background-color: hsl(176, 50%, 47%);
+transform: scale(0);
+transition: transform 0.25s ease;
+}
+.amount::after {
+display: block;
+position: absolute;
+top: 4rem;
+left: 0;
+content: "Please enter a valid pledge";
+color: hsl(356, 100%, 66%);
+font-size: 0.75rem;
+opacity: 0;
+pointer-events: none;
+transition: opacity 0.25s ease;
+}
+.select label {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+.radioCircle {
+position: relative;
+display: none;
+width: 1.5rem;
+height: 1.5rem;
+border-radius: 50%;
+border: 1px solid hsl(0, 0%, 90%);
+margin-right: 1rem;
+flex-shrink: 0;
+transition: border-color 0.25s ease;
+}
+.pledge {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border-top: 1px solid hsl(0, 0%, 90%);
+margin-top: 1.75rem;
+overflow-y: hidden;
+opacity: 0;
+transition-property: max-height, opacity;
+transition-duration: 0.5s;
+transition-timing-function: ease;
+}
+
+.selection.active .pledge {
+opacity: 1;
+}
+
+.pledge p {
+margin-top: 1.25rem
+}
+
+.amount {
+position: relative;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin: 1rem 0;
+}
+
+.amount div {
+width: 50%;
+flex-grow: 1;
+margin-right: 1rem;
+margin-bottom: 1rem;
+position: relative;
+}
+
+.amount div::before {
+position: absolute;
+top: 20px;
+left: 1.25rem;
+content: "$";
+font: 500 1rem/1 'Commissioner', sans-serif;
+color: hsl(0, 0%, 50%);
+}
+
+.amount input {
+font: 500 1rem/1 'Commissioner', sans-serif;
+color: hsl(0, 0%, 0%);
+width: 100%;
+padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+outline: none;
+border-radius: 2rem;
+border: 1px solid hsl(0, 0%, 90%);
+height: 56px;
+transition: border-color 0.25s ease;
+}
+
+.amount input:focus {
+border-color: hsl(0, 0%, 0%);
+}
+
+.amount input::placeholder {
+color: hsl(0, 0%, 50%);
+}
+
+.amount button {
+flex-grow: 0;
+margin-bottom: 1rem;
+}
+
+.select .details {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+.selection .desktopStock {
+display: flex;
+margin-top: 0;
+}
+.amount {
+position: relative;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin: 1rem 0;
+}
+
+.amount div::before {
+position: absolute;
+top: 20px;
+left: 1.25rem;
+content: "$";
+font: 500 1rem/1 'Commissioner', sans-serif;
+color: hsl(0, 0%, 50%);
+}
+.amount::after {
+display: block;
+position: absolute;
+top: 4rem;
+left: 0;
+content: "Please enter a valid pledge";
+color: hsl(356, 100%, 66%);
+font-size: 0.75rem;
+opacity: 0;
+pointer-events: none;
+transition: opacity 0.25s ease;
+}
+#confirmation {
+position: fixed;
+top: 0;
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+opacity: 0;
+pointer-events: none;
+transition: opacity 0.5s ease;
+z-index: 3;
+}
+h3 {
+font-size: 1.25rem;
+margin-bottom: 1.5rem;
+}
+p {
+line-height: 2;
+}
+   
+  }
+  
+.nav-modal{
+  display: none;
+}
+.nav-modal ul li a{
+  text-decoration: none;
+  color: black;
+}
+.nav-modal ul li{
+  list-style: none;
+  color: black;
+}
+  
